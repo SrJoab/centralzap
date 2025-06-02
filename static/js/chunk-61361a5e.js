@@ -1,0 +1,1 @@
+const n={eventName:"ZVUsagePTC",storedName:"zvUsageHits"};function a(t){const e=new CustomEvent(n.eventName,{detail:t});window.dispatchEvent(e)}function s(t,e){return Math.ceil(Math.random()*(e-t)+t)}export{a as d,s as g,n as u};
